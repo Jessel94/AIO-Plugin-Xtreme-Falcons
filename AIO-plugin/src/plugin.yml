@@ -1,6 +1,0 @@
-name: AIO-Plugin
-version: 0.1
-author: J. Lakerveld
-website: http://bukkit.org/
-
-main: com.hogeschool.AIOplugin.Main
