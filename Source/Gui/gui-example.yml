@@ -1,0 +1,92 @@
+############################################
+# This is an Example GUI File for GUI Creator.
+# Please do not write your GUIs in this file. As it will not work.
+############################################
+#
+# Each GUI file starts with 'gui-' and ends with '.yml'
+# So, if you did /gui Example GUI then it will look for the gui with the name "Example GUI"
+# 
+############################################
+
+GUI:
+  Name: 'Example GUI'
+  Rows: 4
+  Require_Perm: false
+  Price_Message: "&aCosts:&b "
+  Open-With-Item: STONE
+Slots:
+  1:
+    Item: DIAMOND:1:5
+    Name: 'Free Money'
+    Lore:
+      - "C'mon, Press Me!"
+      - "You know you want to!"
+      - "You have <money> in your bank"
+    Action: 'reply: HAHA GOT YA'
+    Price: '10'
+  2:
+    Item: EMERALD
+    Name: 'Spawn'
+    Lore:
+      - 'Go back to spawn'
+    Action: 'cmd: spawn'
+    Wait: 100
+  3:
+    Item: IRON_SWORD:0
+    Name: 'Warp to PvP Arena'
+    Lore:
+      - 'Be prepared to get owned by others'
+      - 'Or be the one who dominates'
+    Action: 'command: warp pvp'
+  4:
+    Item: GOLDEN_CARROT
+    Name: 'I AM NOT A CARROT'
+    Lore:
+      - 'You totally are a carrot.'
+    Action: 'reply: I am a carrot.'
+  5:
+    Item: WATCH
+    Name: 'Set time Mid Day'
+    Lore:
+      - 'Changes time to 7500'
+    Action: 'op: time set 7500'
+  6:
+    Item: REDSTONE_BLOCK
+    Name: 'Magic'
+    Lore:
+      - 'I am Magic'
+    Action: 'op: say Magic'
+  7:
+    Item: ENDER_CHEST
+    Name: 'Wireless Chest'
+    Lore:
+      - 'Open your Enderchest from anywhere.'
+      - 'I do mean anywhere'
+    Action: 'cmd: enderchest'
+  8:
+    Item: NETHER_STAR
+    Name: 'Teleport to Shop'
+    Lore:
+      - 'You will be transported to the shopping area.'
+      - 'I hope you dont go broke'
+    Action: 'cmd: /warp shop'
+  9:
+    Item: REDSTONE
+    Name: 'Modern Phone'
+    Lore:
+      - 'Hello, this is redstone.'
+      - ''
+      - 'Im sorry, I cannot comply'
+    Action: 'op: say This is Phone'
+  10:
+    Item: PAPER
+    Name: 'BungeeCord Test'
+    Lore:
+      - 'Used to test BungeeCord'
+    Action: 'bungee: hub'
+  11:
+    Item: PAPER
+    Name: 'LilyPad Test'
+    Lore:
+      - 'Used to test LilyPad'
+    Action: 'lilypad: hub'

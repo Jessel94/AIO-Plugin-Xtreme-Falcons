@@ -1,0 +1,21 @@
+cnfg:
+  stop-msg: true
+  type: 1
+  scoreboard-header: Time left
+  toggle: false
+  stopmsg: STOP!
+  stoptime: 30
+  showClock: false
+  nameClock: Clock
+  auto-restart: false
+  do-commands: false
+  commands:
+    amount: 2
+    command1: say Done!
+    command2: time set 0
+  start-Timer-on-serverstart: false
+  starttimer:
+    days: 0
+    hours: 0
+    minutes: 0
+    seconds: 0

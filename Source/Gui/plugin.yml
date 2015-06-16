@@ -1,0 +1,31 @@
+main: org.goblom.gui.plugin.SimpleGuiCreator
+author: Goblom
+version: 3.3
+name: SimpleGUI Creator
+softdepend: [Vault, LilyPad-Connect]
+
+commands:
+  gui:
+    usage: /<command> [gui_name]
+    permission: gui.use
+    description: Opens [gui_name]
+  guireload:
+    usage: /<command>
+    permission: gui.reload
+    description: Reloads all GUIs in the plugins dir.
+  guicreate:
+    usage: /<command>
+    permissions: gui.create
+    description: Converts the clicked chest into a full fledged GUI.
+#  guitest:
+#    usage: /<command>
+#    description: does nothing unless your the developer
+    
+permissions:
+  gui.use:
+    default: true
+  gui.reload:
+    default: op
+  gui.create:
+    default: op
+    

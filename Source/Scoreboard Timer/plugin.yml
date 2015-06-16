@@ -1,0 +1,26 @@
+name: ScoreboardTimer
+version: 1.1
+author: elvis394
+website: http://bukkit.org/
+
+main: main.ScoreboardTimer
+
+commands:
+ Timer:
+  description: set Timer
+  usage: /timer <min> [<sec>]
+  permission: SetTimer
+ Timeh:
+  description: set Timer
+  usage: /timeh <day> [<hour>] [<min>] [<sec>]
+  permission: SetTimer
+ Timerstop:
+  description: stop Timer
+  usage: /timerstop
+  permission: StopTimer
+ Timertoggle:
+  description: toggles Timer
+  usage: /timertoggle
+ tt:
+  description: toggles Timer
+  usage: /tt

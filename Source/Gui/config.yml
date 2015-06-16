@@ -1,0 +1,24 @@
+############################################
+# SimpleGUI Creator
+# Created by Goblom
+############################################
+# Please do not write your GUIs in this file. It will not work.
+############################################
+#
+# Each GUI file starts with 'gui-' and ends with '.yml'
+# So, if you did /gui ExampleGUI then it will look for the gui with the title "Example GUI" or "ExampleGUI"
+#
+############################################
+
+# Can the plugin update iteself?
+Auto-Update: true
+
+# Print out a lot of info to the console.
+Debug-Mode: true
+
+# Sign GUI name
+# This goes on the top line of a sign
+Sign-GUI: "[GUI]"
+
+# Can i notify when a developer joins ?
+Broadcast-Dev-Join: true
